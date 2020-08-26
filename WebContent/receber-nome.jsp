@@ -12,7 +12,7 @@
 "Nome recebido: " + request.getParameter("nome") 
 %>
 
-
+<%= request.getContextPath() %>
 
 </body>
 </html>
