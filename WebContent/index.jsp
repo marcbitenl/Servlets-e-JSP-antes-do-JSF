@@ -26,7 +26,9 @@
 
 <%=cont %>
 <br/>
-<%=retorna(8) %>
+<%=retorna(8)%>
+<br/>
+<%=application.getInitParameter("estado")%>
 
 
 </body>
