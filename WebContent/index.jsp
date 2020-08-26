@@ -16,19 +16,7 @@
 	
 	</form>
 	
-	<%! int cont=2; 
-	
-		public int retorna(int n) {
-			return n *3;
-		}
-	%>>
-
-
-<%=cont %>
-<br/>
-<%=retorna(8)%>
-<br/>
-<%=application.getInitParameter("estado")%>
+	<%session.setAttribute("curso", "curso de jsp"); %>
 
 
 </body>

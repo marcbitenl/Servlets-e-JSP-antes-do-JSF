@@ -7,12 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <%=
 
-"Nome recebido: " + request.getParameter("nome") 
-%>
+session.getAttribute("curso")
 
-<%= request.getContextPath() %>
+	%>
 
 </body>
 </html>
