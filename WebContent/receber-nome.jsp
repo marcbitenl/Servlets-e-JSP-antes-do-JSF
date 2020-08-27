@@ -8,11 +8,10 @@
 </head>
 <body>
 
-<%=
+<%@ page isErrorPage="true"
+%>
 
-session.getAttribute("curso")
-
-	%>
+<%= exception %>
 
 </body>
 </html>
