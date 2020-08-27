@@ -1,19 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-   pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="myprefix" uri="WEB-INF/testetag.tld" %>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>index.jsp</title>
+    <title>Curso JSP</title>
 </head>
 <body>
-<%@ page import ="java.util.Date" %>
 
-<%= "Data de hoje" + new Date() %>
-
-<%@ page errorPage="receber-nome.jsp" %>
-
-<%= 100/2 %>
-
+<%@ include file="pagina-include.jsp" %>
+<myprefix:minhatag/>
 </body>
 </html>

@@ -1,17 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <title>Title</title>
 </head>
 <body>
 
-<%@ page isErrorPage="true"
-%>
-
-<%= exception %>
-
+<%@ include file="pagina-include.jsp" %>
 </body>
 </html>
