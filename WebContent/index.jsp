@@ -6,9 +6,12 @@
 </head>
 <body>
 	<h1>Index</h1>
-	<jsp:forward page="receber-nome.jsp">
-	<jsp:param value="balbalbal" name="paramforward"/>
-	</jsp:forward>
+	
+	<jsp:include page="cabecalho.jsp"/>
+	<h3> afsfaf hghfgdhfd</h3>
+	
+	<jsp:include page="rodape.jsp"/>
+	
 
 
 </body>
