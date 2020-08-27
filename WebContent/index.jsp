@@ -5,8 +5,11 @@
     <title>Curso JSP</title>
 </head>
 <body>
+	<h1>Index</h1>
+	<jsp:forward page="receber-nome.jsp">
+	<jsp:param value="balbalbal" name="paramforward"/>
+	</jsp:forward>
 
-<%@ include file="pagina-include.jsp" %>
-<myprefix:minhatag/>
+
 </body>
 </html>
