@@ -4,14 +4,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
+<body>
 <jsp:setProperty property="*" name="calcula"/>
 <h3>Cabecalho</h3>
+	
+	 ${sessionScope.user}
+	</body>
 
-<jsp:getProperty property="nome" name="calcula"/>
-<br/>
-<jsp:getProperty property="ano" name="calcula"/>
-<br/>
-<jsp:getProperty property="sexo" name="calcula"/>
-<br/>
+
 
 </html>
