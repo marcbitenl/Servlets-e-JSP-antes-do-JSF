@@ -5,10 +5,10 @@
 <html>
 
 <body>
-<jsp:setProperty property="*" name="calcula"/>
+
 <h3>Cabecalho</h3>
-	
-	 ${sessionScope.user}
+	<jsp:setProperty property="*" name="calcula"/>
+	<h3>Seja bem vindo ao sistema em jsp</h3>
 	</body>
 
 

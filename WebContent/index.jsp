@@ -10,14 +10,19 @@
 <title>Curso JSP</title>
 </head>
 <body>
-	<h1>Index</h1>
-	<jsp:setProperty property="*" name="calcula" />
-	<br />
 
-	<form action="cabecalho.jsp" method="post">
-	
-	<% session.setAttribute("user", "javaavancado"); %>
-	<a href="cabecalho.jsp">Ver teste</a>
+<form action="LoginServlet" method="post" >
+Login:
+<input type="text" id="login" name="login">
+<br/>
+Senha:
+<input type="text" id="senha" name="senha">
+<br/>
+<input type="submit" value="Logar">
+ 
+
+
+</form>
 	
 </body>
 </html>

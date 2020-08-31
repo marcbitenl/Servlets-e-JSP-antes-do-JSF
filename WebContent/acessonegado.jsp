@@ -4,7 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-<h2> Rodape</h2>
+<h2> Acesso negado ao sistema para o seu usuário</h2>
 
 
 </body>
