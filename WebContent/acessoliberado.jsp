@@ -9,6 +9,9 @@
 <h3>Cabecalho</h3>
 	<jsp:setProperty property="*" name="calcula"/>
 	<h3>Seja bem vindo ao sistema em jsp</h3>
+	
+	
+	<a href="cadastroUsuario.jsp">Cadastro de usuários</a>
 	</body>
 
 

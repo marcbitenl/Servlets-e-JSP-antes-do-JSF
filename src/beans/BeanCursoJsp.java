@@ -6,14 +6,6 @@ public class BeanCursoJsp {
 	
 	private String senha;
 	
-	public boolean validarloginSenha(String login, String senha) {
-		if(login.equalsIgnoreCase("admin") && senha.equalsIgnoreCase("admin")){
-			return true;
-		}else {
-			return false;
-		}
-		
-	}
 
 	public String getLogin() {
 		return login;
