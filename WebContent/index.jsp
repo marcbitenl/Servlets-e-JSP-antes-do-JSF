@@ -14,21 +14,6 @@
 </head>
 <body>
 
-<c:set var="numero" value="${100/2}"/>
-
-<c:if test="${numero >= 50 }">
-	<c:redirect url="https://www.google.com.br"/>
-</c:if>
-
-<c:if test="${numero < 50 }">
-	<c:redirect url="http://www.javaancado.com"/>
-</c:if>
-
-
-<p/>
-<p/>
-<p/>
-<p/>
 
 <form action="LoginServlet" method="post" >
 Login:

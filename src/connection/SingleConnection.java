@@ -13,7 +13,7 @@ public class SingleConnection {
 	
 	private static String banco = "jdbc:postgresql://localhost:5432/curso-jsp?autoReconnect=true";
 	private static String password = "Mark8129";
-	private static String user = "postgress";
+	private static String user = "postgres";
 	private static Connection connection = null;
 	
 	static {
@@ -35,6 +35,7 @@ public class SingleConnection {
 			}
 			
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new RuntimeException("Erro ao conectar com banco de dados");
 		}}
 		

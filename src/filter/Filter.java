@@ -16,7 +16,7 @@ import connection.SingleConnection;
 @WebFilter(urlPatterns = {"/*"})
 public class Filter implements javax.servlet.Filter {
 	
-	private static Connection connection;
+	private static Connection connection = SingleConnection.getConnection();
 
 	@Override
 	public void destroy() {
